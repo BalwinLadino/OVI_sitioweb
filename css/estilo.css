@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'angsana';
+    src: url('../fonts/angsa-webfont.woff2') format('woff2'),
+         url('../fonts/angsa-webfont.woff') format('woff'),
+         url('../fonts/angsa-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: #B3B3B3;
+}
+
+#contenedor{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: #B3B3B3;
+}
+
+header{
+	width: 1000px;
+	height: 120px;
+	border-color: #005883;
+	border-radius: 40px;
+	margin-top: 20px;
+}
+
+nav{
+	width: 995px;
+	height: 80px;
+	background: #FFFFFF;
+	border: solid;
+	border-color: #005883;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+ul{
+	margin: auto;
+	padding-top: 2px;
+	font-family: angsana;
+
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	margin: 2px;
+	font-family: angsana;
+}
+
+a{
+	text-decoration: none;
+	font-size: 40px;
+	font-family: angsana;
+}
+
+section{
+	width: 680px;
+	background: #FFFFFF;
+	height: 580px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	
+}
+
+aside{
+	width: 260px;
+	background: #FFFFFF;
+	height: 580px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+footer{
+	width: 1000px;
+	height: 120px;
+	background: #000000;
+	float-left;
+	border-radius: 10px;
+	margin-top: 20px;
+	clear:both;
+
+}
